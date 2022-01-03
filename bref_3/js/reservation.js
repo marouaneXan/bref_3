@@ -15,9 +15,6 @@ a.onchange= function(type)
             document.getElementById("manuelle").disabled=true;
             document.getElementById("automatique").disabled=true;
             document.getElementById("autre").disabled=false;
-       
-            prix=10;
-            bonus_carburant=0.05;
             break;
         case "compact":
             document.getElementById("hybride").disabled=false;
@@ -26,8 +23,6 @@ a.onchange= function(type)
             document.getElementById("diesel").disabled=false;
             document.getElementById("manuelle").disabled=false;
             document.getElementById("automatique").disabled=true;
-            prix=14;
-            bonus_carburant=23.21;
             break;
         case "citan":
             document.getElementById("hybride").disabled=false;
@@ -36,8 +31,6 @@ a.onchange= function(type)
             document.getElementById("diesel").disabled=false;
             document.getElementById("manuelle").disabled=false;
             document.getElementById("automatique").disabled=true;
-            prix=12;
-            bonus_carburant=44.05;
             break;
         case "utilitaire":
             document.getElementById("hybride").disabled=false;
@@ -46,8 +39,6 @@ a.onchange= function(type)
             document.getElementById("diesel").disabled=false;
             document.getElementById("manuelle").disabled=false;
             document.getElementById("automatique").disabled=true;
-            prix=16;
-            bonus_carburant=0.21;
             break;
         case "berlin":
             document.getElementById("hybride").disabled=false;
@@ -56,9 +47,6 @@ a.onchange= function(type)
             document.getElementById("diesel").disabled=false;
             document.getElementById("manuelle").disabled=true;
             document.getElementById("automatique").disabled=false;
-            prix=20;
-            bonus_boite_vitesse=0.19;
-            bonus_carburant=23.21;
             break;   
         case "camion":
             document.getElementById("hybride").disabled=false;
