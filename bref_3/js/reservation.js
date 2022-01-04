@@ -31,11 +31,13 @@ a.onchange= function(type)
             document.getElementById("diesel").disabled=false;
             document.getElementById("manuelle").disabled=false;
             document.getElementById("automatique").disabled=true;
+            prix=12;
+            bonus_carburant=44.05;
             break;
         case "utilitaire":
-            document.getElementById("hybride").disabled=false;
-            document.getElementById("essence").disabled=false;
-            document.getElementById("electrique").disabled=false;
+            document.getElementById("hybride").disabled=true;
+            document.getElementById("essence").disabled=true;
+            document.getElementById("electrique").disabled=true;
             document.getElementById("diesel").disabled=false;
             document.getElementById("manuelle").disabled=false;
             document.getElementById("automatique").disabled=true;
@@ -43,19 +45,19 @@ a.onchange= function(type)
         case "berlin":
             document.getElementById("hybride").disabled=false;
             document.getElementById("essence").disabled=false;
-            document.getElementById("electrique").disabled=false;
+            document.getElementById("electrique").disabled=true;
             document.getElementById("diesel").disabled=false;
             document.getElementById("manuelle").disabled=true;
             document.getElementById("automatique").disabled=false;
             break;   
         case "camion":
-            document.getElementById("hybride").disabled=false;
-            document.getElementById("essence").disabled=false;
-            document.getElementById("electrique").disabled=false;
+            document.getElementById("hybride").disabled=true;
+            document.getElementById("essence").disabled=true;
+            document.getElementById("electrique").disabled=true;
             document.getElementById("diesel").disabled=false;
             document.getElementById("manuelle").disabled=true;
             document.getElementById("automatique").disabled=false;
-            break; 
+            break;
     }
 } 
 
