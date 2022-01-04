@@ -106,6 +106,6 @@ button.onclick=function() {
     else if(boite=="manuelle" || boite=="autre")
         bonus_boite_vitesse=0;
 
-    var res=(prix+prix*(bonus_boite_vitesse+bonus_carburant))*duree_reservetion;
+    var res=(prix*(bonus_boite_vitesse+bonus_carburant))*duree_reservetion;
     alert("Prix = "+res+" euro");
 }
