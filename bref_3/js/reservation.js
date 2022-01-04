@@ -31,8 +31,6 @@ a.onchange= function(type)
             document.getElementById("diesel").disabled=false;
             document.getElementById("manuelle").disabled=false;
             document.getElementById("automatique").disabled=true;
-            prix=12;
-            bonus_carburant=44.05;
             break;
         case "utilitaire":
             document.getElementById("hybride").disabled=true;
